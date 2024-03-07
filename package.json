@@ -1,0 +1,39 @@
+{
+  "name": "rest-crud",
+  "version": "1.0.0",
+  "description": "update to package json",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "debug": "nodemon --exec babel-node src/index.js",
+    "lint": "eslint .",
+    "lint-fix": "eslint . --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/node": "^7.23.9",
+    "@babel/preset-env": "^7.23.9",
+    "axios": "^1.6.7",
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "joi": "^17.12.2",
+    "js-sha256": "^0.11.0",
+    "jsonschema": "^1.4.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mongoose": "^8.1.1",
+    "nodemon": "^3.0.3",
+    "prettier": "^3.2.4",
+    "redis": "^4.6.12",
+    "winston": "^3.11.0",
+    "y": "^0.3.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
