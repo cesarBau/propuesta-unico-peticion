@@ -20,7 +20,7 @@ const saveNotes = async (req, res) => {
     const { body, headers } = req
     const uniqueRequest = body.relatedParty[0].id + body.productOrderItem[0].productOffering[0].id + body.characteristic[1].value + body.productOrderItem[0].action
     const process = { headers, body }
-    if (body) {
+    if (!body) {
         throw new badRequestError('peticion incorrecta', uniqueRequest)
     }
     /*
